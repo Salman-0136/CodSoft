@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+body{
+    min-height: 100vh;
+    max-width: 100%;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+.container{
+    padding: 15px;
+    box-shadow: 0 0 15px #000;
+    border: 2px solid rgba(116, 114, 114);
+    border-radius: 15px;
+}
+.display-screen input{
+    width: 360px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    margin: 10px;
+    background: transparent;
+    color: #fff;
+    font-size: 30px;
+    text-align: right;
+    cursor: pointer;
+}
+input::placeholder{
+    color: #fff;
+}
+button{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    background: transparent;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: -5px -6px 15px #000;
+    outline: 1px solid #313131;
+    outline-offset: 3px;
+    cursor: pointer;
+}
+button:active{
+    background: #000;
+    transform: translate(2px, 2px);
+}
+.operator{
+    color: #fbff00;
+    background: #1e1919;
+    font-weight: 700;
+}
+.equal-btn{
+    background: orangered;
+    font-weight: 900;
+}
+#history-display {
+    width: 420px;
+    height: 300px; 
+    border: 1px solid #ccc;
+    padding: 5px;
+    overflow-y: scroll; 
+    font-size: 14px;
+    background: transparent;
+    overflow-y: auto;
+    color: #fff;
+}
+#clear-history-button {
+    background-color: #f90000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    width: auto;
+    margin: 30px 0;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+#clear-history-button:hover {
+    background-color: orangered;
+}
+.outer-div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+.text{
+    color: #ff3333;
+    font-weight: 800;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.image{
+    display: grid;
+    place-items: center;
+}
+.history-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin: auto 0;
+}

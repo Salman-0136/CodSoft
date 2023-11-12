@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="shortcut icon" href="calculator.png">
+    <title>QuickMath</title>
+</head>
+<body>
+    <div class="outer-div">
+        <div class="container">
+            <div class="display-screen">
+                <input type="text" id="screen" value="0" placeholder="0" disabled>
+            </div>
+            <div class="row">
+                <button type="button" class="operator" id="clear">AC</button>
+                <button type="button" class="operator" id="backspace">&lt;</button>
+                <button type="button" class="operator" id="percentage">%</button>
+                <button type="button" class="operator" id="divide">/</button>
+            </div>
+            <div class="row">
+                <button type="button" class="number" id="7">7</button>
+                <button type="button" class="number" id="8">8</button>
+                <button type="button" class="number" id="9">9</button>
+                <button type="button" class="operator" id="multiply">X</button>
+            </div>
+            <div class="row">
+                <button type="button" class="number" id="4">4</button>
+                <button type="button" class="number" id="5">5</button>
+                <button type="button" class="number" id="6">6</button>
+                <button type="button" class="operator" id="subtract">-</button>
+            </div>
+            <div class="row">
+                <button type="button" class="number" id="1">1</button>
+                <button type="button" class="number" id="2">2</button>
+                <button type="button" class="number" id="3">3</button>
+                <button type="button" class="operator" id="add">+</button>
+            </div>
+            <div class="row">
+                <button type="button" class="number" id="0">0</button>
+                <button type="button" class="number" id="decimal">.</button>
+                <button type="button" class="operator" id="pi-button">&#960;</button>
+                <button type="button"class="equal-btn" id="equals">=</button>
+            </div>
+        </div>
+        <div class="history-box">
+            <div class="row">
+                <h2 class="text">History</h2>
+                <div id="history-display" class="history-display"></div>
+            </div>
+            <div class="row">
+                <button type="button" id="clear-history-button">Clear History</button>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

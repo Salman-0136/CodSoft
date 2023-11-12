@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+section {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2vh 2vw;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: rgba(246, 252, 227, 0.7);
+    z-index: 100;
+}
+
+nav .icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav .icon h2 {
+    margin: 0vh 1vw;
+    color: rgb(222, 72, 58);
+}
+
+nav .icon img {
+    height: 5vh;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0vh 0.2vw;
+    cursor: pointer;
+    border: 2px;
+    padding: 1vh 0.5vw;
+    width: 5.5vw;
+    text-align: center;
+    transition: 1s;
+}
+
+nav ul li:hover {
+    background-color: rgba(133, 126, 126, 0.5);
+    border-radius: 1vh;
+}
+
+.content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 6vh 6vw;
+}
+
+.content h1 {
+    font-size: 10vh;
+    width: 50%;
+    margin: 5vh auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 12vh;
+}
+
+.content p {
+    font-size: 3.5vh;
+    text-align: center;
+    margin: 3vh auto;
+    width: 50%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content button {
+    width: 10vw;
+    background-color: rgb(222, 72, 58);
+    border-radius: 0.6vw;
+    color: #ffffff;
+    font-size: 3vh;
+    text-align: center;
+    margin: 8vh auto;
+    border: none;
+    padding: 1vh 1vw;
+    cursor: pointer;
+    border: 3px solid rgb(222, 72, 58);
+    transition: 1s;
+}
+
+.content button:hover {
+    background-color: transparent;
+    font-weight: bold;
+    color: rgb(222, 72, 58);
+    border: 3px solid rgb(222, 72, 58);
+
+}
+
+.mid-content-div {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.mid-content {
+    display: flex;
+    flex-direction: column;
+    margin: 6vh auto;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.mid-content p {
+    color: rgb(222, 72, 58);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5vh;
+}
+
+.mid-content h1 {
+    font-size: 7vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mid-content h4 {
+    font-size: 3.5vh;
+    text-align: center;
+    margin: 3vh auto;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.image img {
+    width: 80vh;
+    height: 70vh;
+    border-radius: 2vh;
+    margin: 0vh 2vw;
+    border: 1px solid rgb(56, 56, 56);
+}
+
+.last-content-div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto 0vw;    
+    background-image: linear-gradient(to bottom,#ffffff,rgba(246, 252, 227,0.5));
+    width: 100%;
+}
+
+.last-content {
+    display: flex;
+    flex-direction: column;
+    margin: 6vh auto;
+    justify-content: space-around;
+}
+
+.last-content h1 {
+    font-size: 7vh;
+    text-align: center;
+    width: 80%;
+    margin: 15vh auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.last-content p {
+    font-size: 3.5vh;
+    text-align: center;
+    margin: 3vh auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.last-content button {
+    width: 10vw;
+    background-color: rgb(222, 72, 58);
+    border-radius: 0.6vw;
+    border: 3px solid rgb(222, 72, 58);
+    color: #ffffff;
+    font-size: 3vh;
+    text-align: center;
+    margin: 3vh auto;
+    padding: 1vh 1vw;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+.last-content button:hover {
+    background-color: transparent;
+    color: rgb(222, 72, 58);
+    border: 3px solid rgb(222, 72, 58);
+    font-weight: bold;
+
+}
+
+.download-logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 1vh auto;
+    align-items: center;
+    padding: 1vh 1vw;
+    border-radius: 2vh;
+    cursor: pointer;
+    transition: 1.5s;
+    font-weight: bold;
+}
+
+.download-logo:hover {
+    background-color: rgba(133, 126, 126, 0.5);
+    color: #000000;
+}
+
+.download-logo img {
+    width: 3vh;
+    height: 1.5vw;
+}
+
+.download-logo p {
+    text-align: center;
+    font-size: 2.5vh;
+    margin: 0 1vw;
+} 
+
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 2vw;
+    margin-top: 7vh;
+}
+
+footer .icon {
+    display: flex;
+    align-items: center;
+}
+
+footer .icon h2 {
+    margin: 0vh 1vw;
+    height: 5vh;
+    text-align: center;
+}
+
+footer .icon img {
+    height: 5vh;
+    cursor: pointer;
+}
+
+footer .links {
+    display: flex;
+}
+
+footer .links img {
+    margin: 0vh 1vw;
+    height: 4vh;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+footer .links img:hover{
+
+    scale: 1.4;
+}
